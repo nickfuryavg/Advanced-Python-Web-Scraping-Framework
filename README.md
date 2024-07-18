@@ -81,11 +81,11 @@ Opens the crontab file for editing. This file manages scheduled tasks (cron jobs
 
 >> /Users/sandipanray/Soket_Labs/log1.log 2>&1: Redirects both standard output and standard error to log1.log for logging purposes.
 
-`00 11 * * * pkill -f /path/to/your/project/Modular_Advance_scrapping.py > /path/to/your/project/log1.log 2>&1`
+`00 11 * * * pkill -f  /Users/sandipanray/Soket_Labs/Modular_Advance_scrapping.py > /path/to/your/project/log1.log 2>&1`
 
 `00 11 * * *`: Specifies the schedule for stopping the command at 11:00 AM daily.
 
-`pkill -f /path/to/your/project/Modular_Advance_scrapping.py`: Searches for and kills any running instance of the script specified (Modular_Advance_scrapping.py).
+` /Users/sandipanray/Soket_Labs/Modular_Advance_scrapping.py`: Searches for and kills any running instance of the script specified (Modular_Advance_scrapping.py).
 
 >> /path/to/your/project/log1.log 2>&1: Redirects both standard output and standard error to log1.log for logging purposes.
 
